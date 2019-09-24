@@ -1,0 +1,139 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    overflow: hidden;
+    font-family: 'Assistant', sans-serif;
+}
+
+body {
+    width: 100%;
+    height: 100vh;
+    background: linear-gradient(-15deg, #c31432, #240b36);
+}
+
+h1 {
+    text-align: center;
+    font-size: 4em;
+    color: #ffffffbf;
+}
+
+a {
+    color: #ffffffbf;
+    margin-left: 20%;
+    text-decoration: none;
+}
+
+button {
+    width: 90px;
+    height: 70px;
+    margin: 10px 5px 0;
+    font-size: 2.5em;
+    background: unset;
+    border: 3px #b1b1b1bf solid;
+    border-radius: 10px;
+    color: #b1b1b1bf;
+    transition: 0.2s ease-in-out;
+    cursor: pointer;
+}
+
+#blank {
+    visibility: hidden;
+}
+
+button:hover {
+    background: #b1b1b1bf;
+    color: #303030;
+}
+
+.calculator {
+    width: 480px;
+    height: 640px;
+    border: 3px #b1b1b1bf solid;
+    margin: auto;
+    margin-top: Calc((100vh - 640px - 5%)/2);
+    background: #00000033;
+}
+
+.glowing {
+    animation: glowing 10s ease-in-out infinite;
+}
+
+.readback {
+    width: 420px;
+    height: 100px;
+    margin: 5% auto 5px;
+    padding: 15px;
+    background: #ffffffbf;
+    box-shadow: inset 0 0 15px #000000a6;
+    text-align: right;
+}
+
+.readback-text {
+    font-size: 4em;
+    bottom: 0;
+    margin: 0;
+    padding: 0;
+}
+
+.buttons {
+    width: 100%;
+    margin: 50px auto;
+    padding: auto;
+    text-align: center;
+}
+
+@keyframes glowing {
+    0% {
+        box-shadow: 0 0 0 #ffffffbf;
+    }
+    50% {
+        box-shadow: 0 0 100px #ffffffbf;
+    }
+    100% {
+        box-shadow: 0 0 0 #ffffffbf;
+    }
+
+}
+
+@media screen and (min-width: 320px) and (max-width: 640px) {
+    h1 {
+        font-size: 1.8em;
+    }
+    
+    a {
+        margin: 0 auto;
+        font-size: 1.2em;
+        margin-bottom: 20px;
+    }
+    
+    button {
+        width: 50px;
+        height: 50px;
+        margin: 10px 5px 0;
+        font-size: 1.5em;
+    }
+    
+    .calculator {
+        width: 95%;
+        min-width: 320px;
+        max-width: 320px;
+        height: 70vh;
+        min-height: 400px;
+        max-height: 480px;
+        margin-top: Calc((100vh - 400px) / 3);
+    }
+    
+    .readback {
+        width: 95%;
+        height: 80px;
+    }
+    
+    .readback-text {
+        font-size: 2em;
+    }
+    
+    .buttons {
+        margin: 6% auto;
+    }
+}
