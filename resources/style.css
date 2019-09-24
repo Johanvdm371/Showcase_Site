@@ -25,6 +25,9 @@ h1, h2, h3, h4, h5, h6 {
     font-family: 'Lato', sans-serif;
 }
 
+li {
+    user-select: none;
+}
 
 header {
     background: linear-gradient(#5a7e91 0%,#37505e 80%);
@@ -156,6 +159,11 @@ footer {
     opacity: 0;
     animation: fadeslide 1s 1s 1 forwards;
     z-index: 10;
+}
+
+.social a{
+    text-decoration: none;
+    color: inherit;
 }
 
 .social img{
