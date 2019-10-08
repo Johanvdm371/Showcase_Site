@@ -27,7 +27,7 @@ function scrollAppearProficiencies() {
     };
 }
 
-//Smooth scroll to section for showcase page
+//Smooth scroll to section for future showcase page (currently not implemented)
 function smoothScroll(section, duration) {
     let sect = document.querySelector(section);
     let sectPosition = sect.getBoundingClientRect().top;
@@ -61,12 +61,4 @@ function smoothScroll(section, duration) {
 //event listeners triggered per page
 if (document.body.classList.contains("homepage")) {
     window.addEventListener('scroll', scrollAppearProficiencies);
-}
-if (document.body.classList.contains("showcase")) {
-    showButton.addEventListener('click', function(){
-        smoothScroll('.showpieces', 1000);
-    });
-    webButton.addEventListener('click', function(){
-        smoothScroll('.websites', 1000);
-    });
 }
