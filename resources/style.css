@@ -446,6 +446,11 @@ footer {
     z-index: 5000;
 }
 
+#twitterbox {
+    width: 100%;
+    text-align: center;
+}
+
 .text-overlay {
     position: absolute;
     width: 110%;
