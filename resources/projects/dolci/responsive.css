@@ -1,0 +1,303 @@
+@media screen and (max-width: 1430px) and (min-width: 940px) {
+    
+    header {
+        align-items: center;
+    }
+    
+    .title {
+        font-size: 80px;
+    }
+
+    .menu {
+        width: 40vw;
+    }
+
+    .menu li {
+        font-size: 3vw;
+    }
+
+    header .menu li::after {
+        margin-top: -0.5vw;
+    }
+
+    #find {
+        height: 50vh;
+    }
+
+    #map {
+    width: 50vw;
+    }
+
+    .about-title {
+        font-size: 4vw;
+    }
+
+    .about-writing {
+        font-size: 24px;
+    }
+}
+
+@media screen and (max-width: 939px) and (min-width: 681px) {
+    
+    header {
+        align-items: center;
+        justify-content: center;
+        padding: 0;
+        height: 80px;
+    }
+
+    .headerback {
+        min-height: 80px;
+    }
+
+    .small .menu li {
+        font-size: 3vw;
+    }
+
+    .small .menu li::after {
+        margin-top: -0.5vw;
+    }
+
+    footer {
+        flex-direction: column-reverse;
+        height: auto;
+        justify-content: center;
+        align-items: center;
+        padding: 2vh;
+    }
+    
+    .title {
+        font-size: 8vw;
+    }
+
+    .menu {
+        width: 40vw;
+        height: 3.5vw;
+    }
+
+    header .menu {
+        margin-top: 80px;
+    }
+
+    .menu li {
+        font-size: 3vw;
+    }
+
+    header .menu li::after {
+        margin-top: -0.5vw;
+    }
+
+    main {
+        font-size: 4vw;
+    }
+
+    .love {
+        font-size: 10vw;
+    }
+
+    .button {
+        width: 150px;
+        height: 50px;
+        font-size: 22px;
+        line-height: 50px;
+    }
+
+    .action {
+        height: Calc(100vh - 80px);
+    }
+
+    .action .container {
+        width: 80vw;
+        height: 35vw;
+    }
+
+    #find {
+        height: 40vh;
+    }
+
+    .address {
+        font-size: 3vw;
+    }
+
+    #map {
+    width: 50vw;
+    }
+
+    .aboutbox {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .about-image-left {
+        height: 40vh;
+    }
+
+    .about-title {
+        font-size: 4vw;
+    }
+
+    .about-writing {
+        font-size: 3vw;
+    }
+}
+
+@media screen and (max-width: 680px) {
+    
+    header {
+        align-items: center;
+        justify-content: center;
+        padding: 0;
+        height: 80px;
+    }
+
+    .headerback {
+        min-height: 80px;
+    }
+
+    .small {
+        padding: 1vw;
+        justify-content: flex-end;
+        align-items: center;
+    }
+
+    .small .title {
+        font-size: 0;
+        display: none;
+        margin: 0;
+        padding: 0;
+    }
+
+    .small .menu {
+        height: 50px;
+        margin: 5px 0 0 auto;
+        width: 80vw;
+        flex-wrap: wrap;
+        justify-content: space-around;
+    }
+
+    .small .menu li {
+        font-size: 5vw;
+    }
+
+    .small .menu li::after {
+        margin-top: -0.5vw;
+    }
+
+    footer {
+        flex-direction: column-reverse;
+        height: auto;
+        justify-content: center;
+        align-items: center;
+        padding: 2vh;
+        font-size: 1em;
+    }
+
+    footer .menu {
+        width: 90vw;
+        margin: 30px auto 10px;
+        align-items: center;
+        justify-content: center;
+    }
+
+    footer .menu li {
+        font-size: 4vw;
+        margin: 0 10px;
+    }
+
+    .footnav {
+        width: 90vw;
+    }
+
+    .credit {
+        font-size: 3vw;
+    }
+    
+    .title {
+        font-size: 6vw;
+    }
+
+    .menu {
+        width: 60vw;
+        height: 3.5vw;
+    }
+
+    header .menu {
+        margin-top: 80px;
+    }
+
+    .menu li {
+        font-size: 4.5vw;
+    }
+
+    header .menu li::after {
+        margin-top: -0.5vw;
+    }
+
+    main {
+        font-size: 4vw;
+    }
+
+    .love {
+        font-size: 10vw;
+    }
+
+    .button {
+        width: 20vw;
+        height: 8vw;
+        font-size: 4vw;
+        line-height: 8vw;
+    }
+
+    .action {
+        height: 60vh;
+    }
+
+    .action .container {
+        width: 80vw;
+        height: 35vh;
+    }
+
+    #find {
+        height: 50vh;
+    }
+
+    .address {
+        font-size: 3vw;
+    }
+
+    #map {
+    width: 50vw;
+    }
+
+    .aboutbox {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .about-image-left {
+        height: 40vh;
+        background-image: url(images/lasagna-1900529_1920.jpg);
+        background-position: center;
+        background-size: cover;
+    }
+
+    .about-title {
+        font-size: 4vw;
+        margin: 20px auto 0;
+    }
+
+    .about-writing {
+        font-size: 4vw;
+        margin: 20px auto;
+    }
+
+    .food-menu h3 {
+        height: 12vw;
+        line-height: 12vw;
+        text-align: center;
+        background: #FCC068;
+        width: 100%;
+    }
+}
